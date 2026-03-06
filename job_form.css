@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #dddddd;
+  background-color: #fafafa;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+label {
+  font-size: 18px;
+}
+
+textarea {
+  resize: none;
+}
+
+fieldset {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+legend {
+  font-size: 20px;
+}
+
+.input-container label {
+  margin-right: 12px;
+}
+
+.name_dob_gender_mail,
+.contact_desig_relation,
+.city_state_zip,
+.input_fields,
+.company_to_from_package,
+.reason_contact_name,
+.launguage_record,
+.tech_record,
+.reference_record,
+.location_notice_department,
+.current_expected {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 20px;
+}
+
+.gender {
+  margin-top: 6px;
+}
+
+.address input {
+  width: 500px;
+}
+
+.add_remove {
+  display: flex;
+  gap: 30px;
+}
+
+.add_remove button {
+  font-size: 16px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0px 30px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.edu_record {
+  padding-bottom: 20px;
+}
+
+.work_record {
+  padding: 20px 10px 10px 10px;
+  border: 1px solid #dedede;
+  margin-bottom: 20px;
+}
+
+.submit_section {
+  margin: auto;
+}
+
+.submit_section input {
+  margin-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 40px;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+}
